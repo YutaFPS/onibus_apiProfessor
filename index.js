@@ -10,7 +10,7 @@ app.use(express.json()); // Habilita o parser de JSON do Express
 
 // Rota principal de teste
 app.get('/', (req, res) => {
-  res.send('API do busão de pé!');
+  res.send('API do onibus rodando');
 });
 
 //app.use('/onibus-api', lineRoutes);

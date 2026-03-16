@@ -2,6 +2,9 @@ const pool = require('../config/db');
 
 // Função para criar uma nova linha
 const create = async (data) => {
+
+  //GERAR uid AUTOMATICO
+
   const { nome_linha, numero_linha, origem_linha, destino_linha, sentido_linha, numero_veiculo } = data;
   const sql = 'INSERT INTO linha (nome_linha, numero_linha, origem_linha, destino_linha, sentido_linha, numero_veiculo) VALUES (?, ?, ?, ?, ?, ?)';
   
