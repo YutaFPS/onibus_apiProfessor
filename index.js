@@ -21,3 +21,5 @@ app.use(lineRoutes, userRoutes);
 app.listen(PORT, () => {
   console.log(`Servidor rodando na porta ${PORT}`);
 });
+
+ //$ npm start index.js
